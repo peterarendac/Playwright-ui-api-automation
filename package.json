@@ -1,0 +1,22 @@
+{
+  "name": "moxymind-automation-tasks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --config=playwright.config.ts",
+    "test:api": "playwright test --config=api.config.ts --project=api",
+    "test:all": "npm run test:ui && npm run test:api"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.2"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}
