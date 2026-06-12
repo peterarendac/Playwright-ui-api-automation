@@ -12,10 +12,6 @@ jobs:
     timeout-minutes: 60
     runs-on: ubuntu-latest
 
-    defaults:
-      run:
-        working-directory: playwright-ui-api
-
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
       REQRES_API_KEY: ${{ secrets.REQRES_API_KEY }}
