@@ -86,7 +86,7 @@ npm run test:all
 
 GitHub Actions pipeline automatically executes automated tests after code changes are pushed to the repository.
 
-## Performed activites:
+## Performed activites
 
 * UI test automation
 * API test automation
