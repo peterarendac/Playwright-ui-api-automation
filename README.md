@@ -48,6 +48,10 @@ API tests were implemented using Playwright APIRequestContext.
 
 Test data is stored separately in JSON files and reused across API test scenarios.
 
+### Test Data
+
+For security reasons, the actual key is not included in the repository and should be provided through a local `.env` file or GitHub Secrets.
+
 ## Important Note
 
 API response time validation was implemented according to the assignment requirements.
@@ -86,7 +90,7 @@ npm run test:all
 
 GitHub Actions pipeline automatically executes automated tests after code changes are pushed to the repository.
 
-## Performed activites
+## Performed activites:
 
 * UI test automation
 * API test automation
